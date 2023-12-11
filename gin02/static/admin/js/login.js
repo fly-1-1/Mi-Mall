@@ -1,7 +1,7 @@
 $(function () {
-    app.init();
+    loginApp.init();
 })
-let app = {
+let loginApp = {
     init: function () {
         this.getCaptcha()
         this.imgChange()
